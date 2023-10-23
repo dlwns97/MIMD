@@ -8,8 +8,8 @@ def create_directory(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-    
-def main():   
+
+def main():
 
 
    parser = argparse.ArgumentParser(description='Capture and save images using an 3D model.')
@@ -33,12 +33,12 @@ def main():
    mesh = o3d.io.read_triangle_mesh(args.model_path)
    mesh.rotate(mesh.get_rotation_matrix_from_xyz((np.pi,0,0)),
                 center=(0, 0, 0))
-   
+
    # Set camera to capture image #
    viewer = o3d.visualization.Visualizer()
    viewer.create_window()
    viewer.create_window(width=800, height=600)
-   ctr = viewer.get_view_control()    
+   ctr = viewer.get_view_control()
    viewer.add_geometry(mesh)
 
    # Capture initial scene #
@@ -58,3 +58,5 @@ def main():
 
 if __name__=="__main__":
     main()
+
+
