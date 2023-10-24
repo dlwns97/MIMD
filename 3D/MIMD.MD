@@ -11,5 +11,4 @@ This can be used as ground truth data for image generation model.
 ![Original Scene](sample.png) ![30-Degree Rotation](sample_30.png)
 
 *Description: This is the original scene captured from the 3D model.*
-
 *Description: This is the same scene after a 30-degree rotation.*
