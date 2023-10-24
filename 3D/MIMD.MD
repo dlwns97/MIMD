@@ -6,9 +6,8 @@ Load a 3D model into a window and capture both the original scene and a scene ro
 This can be used as ground truth data for image generation model.
 
 ## Original Image
-## 30-Degree Rotation Image
-
-![Original Scene](sample.png) ![30-Degree Rotation](sample_30.png)
-
+![Original Scene](sample.png) 
 *Description: This is the original scene captured from the 3D model.*
+## 30-Degree Rotation Image
+![30-Degree Rotation](rotated30.0.png)
 *Description: This is the same scene after a 30-degree rotation.*
