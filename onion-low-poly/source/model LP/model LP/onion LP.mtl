@@ -1,0 +1,19 @@
+newmtl Solid
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+d 1.0
+Ns 0.0
+illum 0
+
+newmtl onion_LP.1001
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+d 1.0
+Ns 0.0
+illum 0
+map_Kd "onion LP.1001.jpg"
+map_Bump "onion LP_normal.1001.jpg"
+map_ao "onion LP_occlusion.1001.jpg"
+
